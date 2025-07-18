@@ -1,0 +1,1748 @@
+INFO - 2025-07-15 16:28:09,528 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-07-15 16:28:09,528 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-07-15 16:28:09,528 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:28:09,529 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-07-15 16:28:09,529 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:28:09,529 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:28:09,529 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+ERROR - 2025-07-15 16:28:09,537 - sendrequest.py:111 -[sendrequest:send_request] - ConnectionError--连接异常
+INFO - 2025-07-15 16:28:56,950 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-07-15 16:28:56,950 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-07-15 16:28:56,950 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:28:56,950 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-07-15 16:28:56,950 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:28:56,950 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:28:56,951 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+ERROR - 2025-07-15 16:28:56,958 - sendrequest.py:111 -[sendrequest:send_request] - ConnectionError--连接异常
+INFO - 2025-07-15 16:34:44,649 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-07-15 16:34:44,649 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-07-15 16:34:44,649 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:34:44,649 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-07-15 16:34:44,649 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,649 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,650 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-07-15 16:34:44,670 - sendrequest.py:108 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc1MjU2ODQ4NCwianRpIjoiOTg0YjY1MWQtOTYyOC00OTdlLWI3OWUtNmVjYTk2Y2M0ZDIyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc1MjU2ODQ4NCwiY3NyZiI6IjUyZGNjNTAwLTU0NTEtNDk0ZC1hN2M4LTI4NTcwMGQ1OWUyNyIsImV4cCI6MTc1MjU2OTM4NH0.gfis1t6C4fbpYJUQhjxcqpAdXB8iXWswG_kgttpQafQ', 'csrf_access_token': '52dcc500-5451-494d-a7c8-285700d59e27'}}
+INFO - 2025-07-15 16:34:44,671 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u767b\u5f55\u6210\u529f",
+  "msg_code": 200,
+  "orgId": "6140913758128971280",
+  "token": "2F5b5b41283E92e6BfbadDe1c2E32",
+  "userId": "1262204802105607729"
+}
+
+INFO - 2025-07-15 16:34:44,671 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-07-15 16:34:44,671 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2025-07-15 16:34:44,671 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2025-07-15 16:34:44,672 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2025-07-15 16:34:44,672 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,672 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,676 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：商品列表
+INFO - 2025-07-15 16:34:44,676 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2025-07-15 16:34:44,676 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：Get
+INFO - 2025-07-15 16:34:44,676 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：获取商品列表
+INFO - 2025-07-15 16:34:44,676 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '2F5b5b41283E92e6BfbadDe1c2E32'}
+INFO - 2025-07-15 16:34:44,676 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,676 - sendrequest.py:151 -[sendrequest:run_main] - 请求参数：{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2025-07-15 16:34:44,679 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "api_info": "today:21 max:10000 all[90=21+33+36];expires:2030-12-31",
+  "cache": 0,
+  "error_code": "0000",
+  "goodsList": [
+    {
+      "goodsId": "18382788819",
+      "goods_count": "233",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg",
+      "goods_name": "\u30102\u4ef6\u5957\u3011\u5957\u88c5\u79cb\u51ac\u65b0\u6b3e\u4eff\u736d\u5154\u6bdb\u9489\u73e0\u76ae\u8349\u6bdb\u6bdb\u77ed\u5916\u5957\u52a0\u539a\u5927\u8863\u5973\u88c5",
+      "original_price": "",
+      "unit_price": "\uffe599.00"
+    },
+    {
+      "goodsId": "33809635011",
+      "goods_count": "521",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg",
+      "goods_name": "\u597d\u5947\u5c0f\u68ee\u6797\u5fc3\u94bb\u88c5\u7eb8\u5c3f\u88e4M22\u62c9\u62c9\u88e4L18/XL14\u8d85\u8584\u900f\u6c14\u88e4\u578b\u5c3f\u4e0d\u6e7f 1\u4ef6\u88c5",
+      "original_price": "",
+      "unit_price": "\uffe5108.00"
+    },
+    {
+      "goodsId": "56996760797",
+      "goods_count": "1181",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u51bb\u5e72\u9e21\u5c0f\u80f8\u6574\u5757\u589e\u80a5\u8425\u517b\u53d1\u816e\u72d7\u72d7\u96f6\u98df\u65b0\u624b\u517b\u732b\u96f6\u98df\u5e7c\u732b\u96f6\u98df100g",
+      "original_price": "",
+      "unit_price": "\uffe517.80"
+    },
+    {
+      "goodsId": "82193785267",
+      "goods_count": "3000+",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u3010\u81ea\u8425\u3011ISB\u4f0a\u73ca\u5a1c\u610f\u5927\u5229\u6c34\u679c\u7cfb\u5217\u5ba0\u7269\u72ac\u732b\u6c90\u6d74\u9732\u9664\u81ed\u9999\u6ce2\u62a4\u6bdb\u7d20",
+      "original_price": "",
+      "unit_price": "\uffe5650.00"
+    },
+    {
+      "goodsId": "74190550836",
+      "goods_count": "1000+",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u3010\u65b0\u54c1\u96f60CM\u5d4c\u5165\u5f0f\u3011\u6d77\u5c14\u7535\u51b0\u7bb1410L\u5bb6\u7528\u6cd5\u5f0f\u56db\u95e8\u591a\u95e8\u5b98\u65b9\u6b63\u54c1",
+      "original_price": "",
+      "unit_price": "\uffe55746.00"
+    }
+  ],
+  "reason": "",
+  "request_id": "request_id",
+  "secache": "c98b29872e8a4b28859db207944ba817",
+  "secache_date": "2025-07-15 16:34:32",
+  "secache_time": 1752568472000,
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-07-15 16:34:44,679 - apiutil_business.py:205 -[apiutil_business:extract_data_list] - json提取到参数：{'goodsIds': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2025-07-15 16:34:44,680 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': '0000'}}]
+INFO - 2025-07-15 16:34:44,680 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【0000】,实际结果【0000】
+INFO - 2025-07-15 16:34:44,680 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,685 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,686 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,693 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：商品详情
+INFO - 2025-07-15 16:34:44,693 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/productDetail
+INFO - 2025-07-15 16:34:44,693 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:34:44,693 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：获取商品详情
+INFO - 2025-07-15 16:34:44,693 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,693 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,693 - sendrequest.py:148 -[sendrequest:run_main] - 请求参数：{'json': {'pro_id': '18382788819', 'page': 1, 'size': 20}}
+INFO - 2025-07-15 16:34:44,696 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "api_info": "today:21 max:10000 all[90=21+33+36];expires:2030-12-31",
+  "api_type": "pinduoduo",
+  "cache": 0,
+  "call_args": {
+    "num_iid": "1620002566"
+  },
+  "client_ip": "106.6.39.223",
+  "error": "",
+  "error_code": "0000",
+  "execution_time": "0.437",
+  "goodsId": "56996760797",
+  "item": {
+    "AmountOnSale": 3188,
+    "CategoryId": 8484,
+    "Coupon": null,
+    "Delivery": {
+      "From": null,
+      "Info": null,
+      "MarkInfo": null,
+      "Postage": "\u5feb\u9012 \u514d\u8fd0\u8d39",
+      "To": null,
+      "extras": null
+    },
+    "DescUrl": null,
+    "Detail": "<img src=\"https://img.pddpic.com/mms-material-img/2022-09-18/3f89d470-1af8-4dee-b529-6d62aa2ea3b7.png\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2019-02-15/ddf6fe7b-b536-4183-932d-69a1189a3f59.png\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/20f659b04d3e7e5851c27ff9931c96fc.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2019-11-14/4420a8c3-49ed-46d8-ab55-15e7a638ca31.jpg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/26c3e9d5cfbaf4e8f13b2bdd38f48d71.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/0aa872fa74599dad7b6aefe6b6c035c0.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/6bc959e32a30424c7a5284a37676999c.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/1fa9861a8c99c5e9e8119fd2239fef5a.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/b62cabf1d2320c5761e3f4c15203fb20.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/6f6e54376a66cbc78e16700d4c424fe1.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/2f60753dfc875a6876adc35833a69d31.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/ae0116e589d8de712f8dafd0c356cefe.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/da910c98fcc8de1b4d2d1498cd7899fd.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/140349649d8b7d08c8e88bfbbaa2f900.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/a953bae2eeb7364ef3ef2976a97d07eb.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/4da59828136c3b1308aad0aa990778a7.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/4a365b61a80e47288c8609ccd5982396.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/cd0a8a96b783a51236812ce24c59a329.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/16008ac19768d05e7dee16406ff958a1.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/ef1d17b69ebf9449a8bb52459b168c26.jpeg\" style=\"width:100%;\"/>",
+    "FansCount": null,
+    "ImageUrls": [
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg",
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg",
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/d209ef7bcc9183c3bb8ca1dfdb108d49.jpeg",
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/74257ab65f3f00da7a90fde9042fe640.jpeg",
+      "https://t00img.yangkeduo.com/goods/images/2019-08-17/e8fbd9cb-cc74-4caa-9380-84c46d27b008.jpg",
+      "https://t00img.yangkeduo.com/goods/images/2019-08-17/d76f515b-e375-4060-b94e-cf64f6b0964e.jpg",
+      "https://t00img.yangkeduo.com/goods/images/2019-08-17/f2f279b5-6000-4fbe-b99b-7c1cbd7884ea.jpg"
+    ],
+    "MainImageVideo": null,
+    "OfferId": 1620002566,
+    "OriginalPriceRangeInfos": [
+      {
+        "ConvertPrice": 0,
+        "Price": 115,
+        "Range": "3"
+      }
+    ],
+    "PriceRangeInfos": [
+      {
+        "ConvertPrice": 0,
+        "Price": 95.4,
+        "Range": "3"
+      }
+    ],
+    "ProductFeatureTuples": [
+      {
+        "Item1": "\u9762\u6599\u6750\u8d28",
+        "Item2": "\u4eff\u76ae\u8349"
+      },
+      {
+        "Item1": "\u6210\u5206\u542b\u91cf",
+        "Item2": "71%\uff08\u542b\uff09\u201480%\uff08\u542b\uff09"
+      },
+      {
+        "Item1": "\u7248\u578b",
+        "Item2": "\u4fee\u8eab"
+      },
+      {
+        "Item1": "\u9886\u578b",
+        "Item2": "\u5706\u9886"
+      },
+      {
+        "Item1": "\u8863\u957f",
+        "Item2": "\u77ed\u6b3e"
+      },
+      {
+        "Item1": "\u662f\u5426\u5e26\u6bdb\u9886",
+        "Item2": "\u4e0d\u5e26\u6bdb\u9886"
+      },
+      {
+        "Item1": "\u4e3b\u98ce\u683c",
+        "Item2": "\u6c14\u8d28\u540d\u5a9b"
+      }
+    ],
+    "ProductFeatures": {
+      "\u4e3b\u98ce\u683c": "\u6c14\u8d28\u540d\u5a9b",
+      "\u6210\u5206\u542b\u91cf": "71%\uff08\u542b\uff09\u201480%\uff08\u542b\uff09",
+      "\u662f\u5426\u5e26\u6bdb\u9886": "\u4e0d\u5e26\u6bdb\u9886",
+      "\u7248\u578b": "\u4fee\u8eab",
+      "\u8863\u957f": "\u77ed\u6b3e",
+      "\u9762\u6599\u6750\u8d28": "\u4eff\u76ae\u8349",
+      "\u9886\u578b": "\u5706\u9886"
+    },
+    "RateCount": null,
+    "RetryCount": 0,
+    "SellCount": "\u5df2\u62fc4.2\u4e07\u4ef6",
+    "SellerId": null,
+    "SellerNick": null,
+    "ShopId": "461742",
+    "ShopInfo": null,
+    "ShopName": "\u679c\u679c\u5bb6\u6c14\u8d28\u5973\u88c5",
+    "ShopUrl": "http://yangkeduo.com/mall_page.html?mall_id=461742",
+    "SkuMaps": [
+      {
+        "AmountOnSale": 73,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:119128",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357891",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "S\uff0890\u65a4\u4ee5\u4e0b\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 65,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:96784",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357892",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "M\uff0890-100\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 82,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:33651",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357893",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "L\uff08100-110\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 89,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:33652",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357894",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "XL\uff08110-120\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 94,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:33653",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357895",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "2XL\uff08120-130\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 105,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:33656",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357896",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "3XL\uff08130-140\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 1051,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:119128",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357897",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "S\uff0890\u65a4\u4ee5\u4e0b\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 88,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:96784",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357898",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "M\uff0890-100\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 80,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:33651",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357899",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "L\uff08100-110\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 660,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:33652",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357900",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "XL\uff08110-120\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 126,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:33653",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357901",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "2XL\uff08120-130\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 89,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:33656",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357902",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "3XL\uff08130-140\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 98,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/48b30664f0f7e526ab1b956e813f25cf.jpeg",
+        "Key": "1215:105309781;1226:119128",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107855",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "S\uff0890\u65a4\u4ee5\u4e0b\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 95,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/3660b7893ca5cda1ffcea745d10b2506.jpeg",
+        "Key": "1215:105309781;1226:96784",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107856",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "M\uff0890-100\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 97,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/a4a5a671afbb2d8e1f4c21c0ced3bea8.jpeg",
+        "Key": "1215:105309781;1226:33651",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107857",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "L\uff08100-110\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 97,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/f0551176629bf81f25757c160198dba1.jpeg",
+        "Key": "1215:105309781;1226:33652",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107858",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "XL\uff08110-120\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 99,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/801a2e23140bfe76229f02aab0a8a5fe.jpeg",
+        "Key": "1215:105309781;1226:33653",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107853",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "2XL\uff08120-130\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 100,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/2f202934f16f0eee41257b77bf489262.jpeg",
+        "Key": "1215:105309781;1226:33656",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107854",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "3XL\uff08130-140\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      }
+    ],
+    "SkuProps": [
+      {
+        "IsImg": true,
+        "Prop": "\u989c\u8272",
+        "Value": [
+          {
+            "imageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+            "name": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)",
+            "value": "1215:1115500378"
+          },
+          {
+            "imageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+            "name": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09",
+            "value": "1215:1115501666"
+          },
+          {
+            "imageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/48b30664f0f7e526ab1b956e813f25cf.jpeg",
+            "name": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09",
+            "value": "1215:105309781"
+          }
+        ]
+      },
+      {
+        "IsImg": false,
+        "Prop": "\u5c3a\u7801",
+        "Value": [
+          {
+            "name": "S\uff0890\u65a4\u4ee5\u4e0b\uff09",
+            "value": "1226:119128"
+          },
+          {
+            "name": "M\uff0890-100\u65a4\uff09",
+            "value": "1226:96784"
+          },
+          {
+            "name": "L\uff08100-110\u65a4\uff09",
+            "value": "1226:33651"
+          },
+          {
+            "name": "XL\uff08110-120\u65a4\uff09",
+            "value": "1226:33652"
+          },
+          {
+            "name": "2XL\uff08120-130\u65a4\uff09",
+            "value": "1226:33653"
+          },
+          {
+            "name": "3XL\uff08130-140\u65a4\uff09",
+            "value": "1226:33656"
+          }
+        ]
+      }
+    ],
+    "SourceType": 6,
+    "Subject": "\u30102\u4ef6\u5957\u3011\u5957\u88c5\u79cb\u51ac\u65b0\u6b3e\u4eff\u736d\u5154\u6bdb\u9489\u73e0\u76ae\u8349\u6bdb\u6bdb\u77ed\u5916\u5957\u52a0\u539a\u5927\u8863\u5973\u88c5",
+    "Tag": null,
+    "Unit": null,
+    "UserId": "461742",
+    "_ddf": "app",
+    "format_check": "ok"
+  },
+  "reason": "",
+  "request_id": "gw-4.63510267214bd",
+  "secache": "c98b29872e8a4b28859db207944ba817",
+  "secache_date": "2025-07-15 16:34:44",
+  "secache_time": 1666253415,
+  "server_memory": "0.84MB",
+  "server_time": "Beijing/2023-10-20 16:10:15",
+  "translate_engine": "baidu",
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-07-15 16:34:44,697 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'error_code': '0000'}}]
+INFO - 2025-07-15 16:34:44,697 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'error_code': '0000'}，等于预期结果：{'error_code': '0000'}
+INFO - 2025-07-15 16:34:44,697 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,698 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,699 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,701 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：提交订单
+INFO - 2025-07-15 16:34:44,702 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/placeAnOrder
+INFO - 2025-07-15 16:34:44,702 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:34:44,702 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：详情页面选择规格，提交订单
+INFO - 2025-07-15 16:34:44,702 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,702 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,702 - sendrequest.py:148 -[sendrequest:run_main] - 请求参数：{'json': {'goods_id': '18382788819', 'number': 2, 'propertyChildIds': '2:9', 'inviter_id': 127839112, 'price': '128', 'freight_insurance': '0.00', 'discount_code': '002399', 'consignee_info': {'name': '张三', 'phone': 13800000000, 'address': '北京市海淀区西三环北路74号院4栋3单元1008'}}}
+INFO - 2025-07-15 16:34:44,704 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "crateTime": "2025-07-15 16:34:44",
+  "error": "",
+  "error_code": "0000",
+  "message": "\u63d0\u4ea4\u8ba2\u5355\u6210\u529f",
+  "orderNumber": "545627396368189642778",
+  "translate_language": "zh-CN",
+  "userId": "1262204802105607729"
+}
+
+INFO - 2025-07-15 16:34:44,705 - apiutil_business.py:178 -[apiutil_business:extract_data] - json提取到参数：{'orderNumber': '545627396368189642778'}
+INFO - 2025-07-15 16:34:44,705 - apiutil_business.py:178 -[apiutil_business:extract_data] - json提取到参数：{'userId': '1262204802105607729'}
+INFO - 2025-07-15 16:34:44,706 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'message': '提交订单成功'}}]
+INFO - 2025-07-15 16:34:44,706 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'message': '提交订单成功'}，等于预期结果：{'message': '提交订单成功'}
+INFO - 2025-07-15 16:34:44,706 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,706 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,707 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,714 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：订单支付
+INFO - 2025-07-15 16:34:44,714 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/orderPay
+INFO - 2025-07-15 16:34:44,714 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:34:44,714 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：订单支付
+INFO - 2025-07-15 16:34:44,714 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,714 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,715 - sendrequest.py:148 -[sendrequest:run_main] - 请求参数：{'json': {'orderNumber': '545627396368189642778', 'userId': '1262204802105607729', 'timeStamp': '1752568484'}}
+INFO - 2025-07-15 16:34:44,717 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "createTime": "2025-07-15 16:34:44",
+  "error": "",
+  "error_code": "0000",
+  "message": "\u8ba2\u5355\u652f\u4ed8\u6210\u529f",
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-07-15 16:34:44,717 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'message': '订单支付成功'}}]
+INFO - 2025-07-15 16:34:44,718 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'message': '订单支付成功'}，等于预期结果：{'message': '订单支付成功'}
+INFO - 2025-07-15 16:34:44,718 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,718 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,720 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,724 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：校验订单状态
+INFO - 2025-07-15 16:34:44,724 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/checkOrderStatus
+INFO - 2025-07-15 16:34:44,724 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:34:44,725 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：校验商品订单状态
+INFO - 2025-07-15 16:34:44,725 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,725 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,725 - sendrequest.py:148 -[sendrequest:run_main] - 请求参数：{'json': {'orderNumber': '545627396368189642778', 'timeStamp': '1752568484'}}
+INFO - 2025-07-15 16:34:44,727 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "error": "",
+  "error_code": "",
+  "queryTime": "2025-07-15 16:34:44",
+  "status": "0",
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-07-15 16:34:44,728 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'status': '0'}}]
+INFO - 2025-07-15 16:34:44,728 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'status': '0'}，等于预期结果：{'status': '0'}
+INFO - 2025-07-15 16:34:44,728 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,728 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,730 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+ERROR - 2025-07-15 16:34:44,732 - readyaml.py:113 -[readyaml:get_extract_yaml] - 【extract.yaml】没有找到：cookie,--'cookie'
+ERROR - 2025-07-15 16:34:44,733 - readyaml.py:113 -[readyaml:get_extract_yaml] - 【extract.yaml】没有找到：cookie,--'cookie'
+INFO - 2025-07-15 16:34:44,734 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：商品列表
+INFO - 2025-07-15 16:34:44,734 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2025-07-15 16:34:44,734 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：Get
+INFO - 2025-07-15 16:34:44,734 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：获取商品列表
+INFO - 2025-07-15 16:34:44,734 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': 'None'}
+INFO - 2025-07-15 16:34:44,734 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,734 - sendrequest.py:151 -[sendrequest:run_main] - 请求参数：{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2025-07-15 16:34:44,736 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "api_info": "today:21 max:10000 all[90=21+33+36];expires:2030-12-31",
+  "cache": 0,
+  "error_code": "0000",
+  "goodsList": [
+    {
+      "goodsId": "18382788819",
+      "goods_count": "233",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg",
+      "goods_name": "\u30102\u4ef6\u5957\u3011\u5957\u88c5\u79cb\u51ac\u65b0\u6b3e\u4eff\u736d\u5154\u6bdb\u9489\u73e0\u76ae\u8349\u6bdb\u6bdb\u77ed\u5916\u5957\u52a0\u539a\u5927\u8863\u5973\u88c5",
+      "original_price": "",
+      "unit_price": "\uffe599.00"
+    },
+    {
+      "goodsId": "33809635011",
+      "goods_count": "521",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg",
+      "goods_name": "\u597d\u5947\u5c0f\u68ee\u6797\u5fc3\u94bb\u88c5\u7eb8\u5c3f\u88e4M22\u62c9\u62c9\u88e4L18/XL14\u8d85\u8584\u900f\u6c14\u88e4\u578b\u5c3f\u4e0d\u6e7f 1\u4ef6\u88c5",
+      "original_price": "",
+      "unit_price": "\uffe5108.00"
+    },
+    {
+      "goodsId": "56996760797",
+      "goods_count": "1181",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u51bb\u5e72\u9e21\u5c0f\u80f8\u6574\u5757\u589e\u80a5\u8425\u517b\u53d1\u816e\u72d7\u72d7\u96f6\u98df\u65b0\u624b\u517b\u732b\u96f6\u98df\u5e7c\u732b\u96f6\u98df100g",
+      "original_price": "",
+      "unit_price": "\uffe517.80"
+    },
+    {
+      "goodsId": "82193785267",
+      "goods_count": "3000+",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u3010\u81ea\u8425\u3011ISB\u4f0a\u73ca\u5a1c\u610f\u5927\u5229\u6c34\u679c\u7cfb\u5217\u5ba0\u7269\u72ac\u732b\u6c90\u6d74\u9732\u9664\u81ed\u9999\u6ce2\u62a4\u6bdb\u7d20",
+      "original_price": "",
+      "unit_price": "\uffe5650.00"
+    },
+    {
+      "goodsId": "74190550836",
+      "goods_count": "1000+",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u3010\u65b0\u54c1\u96f60CM\u5d4c\u5165\u5f0f\u3011\u6d77\u5c14\u7535\u51b0\u7bb1410L\u5bb6\u7528\u6cd5\u5f0f\u56db\u95e8\u591a\u95e8\u5b98\u65b9\u6b63\u54c1",
+      "original_price": "",
+      "unit_price": "\uffe55746.00"
+    }
+  ],
+  "reason": "",
+  "request_id": "request_id",
+  "secache": "c98b29872e8a4b28859db207944ba817",
+  "secache_date": "2025-07-15 16:34:32",
+  "secache_time": 1752568472000,
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-07-15 16:34:44,736 - apiutil.py:183 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2025-07-15 16:34:44,737 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': '0000'}}]
+INFO - 2025-07-15 16:34:44,737 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【0000】,实际结果【0000】
+INFO - 2025-07-15 16:34:44,737 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,738 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,739 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,744 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：商品详情
+INFO - 2025-07-15 16:34:44,745 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/productDetail
+INFO - 2025-07-15 16:34:44,745 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:34:44,745 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：获取商品详情
+INFO - 2025-07-15 16:34:44,745 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,745 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,745 - sendrequest.py:148 -[sendrequest:run_main] - 请求参数：{'json': {'pro_id': '18382788819,33809635011,56996760797,82193785267,74190550836', 'page': 1, 'size': 20}}
+INFO - 2025-07-15 16:34:44,747 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "error": "\u4e0d\u5b58\u5728\u8be5\u5546\u54c1",
+  "error_code": "4000",
+  "goodsId": "",
+  "item": {},
+  "secache_date": "2025-07-15 16:34:44",
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-07-15 16:34:44,747 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': '4000'}}]
+INFO - 2025-07-15 16:34:44,747 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【4000】,实际结果【4000】
+INFO - 2025-07-15 16:34:44,747 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,748 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,749 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,774 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：提交订单
+INFO - 2025-07-15 16:34:44,774 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/placeAnOrder
+INFO - 2025-07-15 16:34:44,774 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:34:44,774 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：提交订单
+INFO - 2025-07-15 16:34:44,775 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,775 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,775 - sendrequest.py:148 -[sendrequest:run_main] - 请求参数：{'json': {'goods_id': '33809635011', 'number': 2, 'propertyChildIds': '2:9', 'inviter_id': '127839112', 'price': '128', 'freight_insurance': '0.0', 'discount_code': '002399', 'consignee_info': {'name': '张三', 'phone': 13800000000, 'address': '北京市海淀区西三环北路74号院4栋3单元1008'}}}
+INFO - 2025-07-15 16:34:44,777 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "crateTime": "2025-07-15 16:34:44",
+  "error": "",
+  "error_code": "0000",
+  "message": "\u63d0\u4ea4\u8ba2\u5355\u6210\u529f",
+  "orderNumber": "196394438499572893997",
+  "translate_language": "zh-CN",
+  "userId": "1262204802105607729"
+}
+
+INFO - 2025-07-15 16:34:44,777 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-07-15 16:34:44,777 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-07-15 16:34:44,778 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'message': '提交订单成功'}}, {'eq': {'error_code': '0000'}}]
+INFO - 2025-07-15 16:34:44,778 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'message': '提交订单成功'}，等于预期结果：{'message': '提交订单成功'}
+INFO - 2025-07-15 16:34:44,778 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'error_code': '0000'}，等于预期结果：{'error_code': '0000'}
+INFO - 2025-07-15 16:34:44,778 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,779 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,780 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,788 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：订单支付
+INFO - 2025-07-15 16:34:44,788 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/orderPay
+INFO - 2025-07-15 16:34:44,788 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:34:44,788 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：订单支付
+INFO - 2025-07-15 16:34:44,788 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,788 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,788 - sendrequest.py:148 -[sendrequest:run_main] - 请求参数：{'json': {'orderNumber': '196394438499572893997', 'userId': '1262204802105607729', 'timeStamp': '1752568484'}}
+INFO - 2025-07-15 16:34:44,790 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "createTime": "2025-07-15 16:34:44",
+  "error": "",
+  "error_code": "0000",
+  "message": "\u8ba2\u5355\u652f\u4ed8\u6210\u529f",
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-07-15 16:34:44,791 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'message': '订单支付成功'}}, {'contains': {'error_code': '0000'}}]
+INFO - 2025-07-15 16:34:44,791 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【订单支付成功】,实际结果【订单支付成功】
+INFO - 2025-07-15 16:34:44,791 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【0000】,实际结果【0000】
+INFO - 2025-07-15 16:34:44,791 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,792 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,793 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,802 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2025-07-15 16:34:44,802 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2025-07-15 16:34:44,802 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:34:44,802 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：正常新增用户
+INFO - 2025-07-15 16:34:44,802 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,802 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,802 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2023-12-31', 'phone': 13800000000, 'token': '2F5b5b41283E92e6BfbadDe1c2E32'}}
+INFO - 2025-07-15 16:34:44,808 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u65b0\u589e\u6210\u529f",
+  "msg_code": 200
+}
+
+INFO - 2025-07-15 16:34:44,809 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增成功'}}]
+INFO - 2025-07-15 16:34:44,809 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增成功】,实际结果【新增成功】
+INFO - 2025-07-15 16:34:44,809 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,810 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,811 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,812 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2025-07-15 16:34:44,812 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2025-07-15 16:34:44,813 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:34:44,813 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：无效新增·缺少token
+INFO - 2025-07-15 16:34:44,813 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,813 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,813 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2023-12-31', 'phone': 13800000000, 'token': None}}
+INFO - 2025-07-15 16:34:44,815 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2025-07-15 16:34:44,816 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增失败'}}]
+INFO - 2025-07-15 16:34:44,816 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2025-07-15 16:34:44,816 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,817 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,818 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,819 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2025-07-15 16:34:44,820 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2025-07-15 16:34:44,820 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:34:44,820 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：无效新增·缺少必填参数username
+INFO - 2025-07-15 16:34:44,820 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,820 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,820 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'password': 'tset6789890', 'role_id': 123456789, 'dates': '2023-12-31', 'phone': 13800000000, 'token': None}}
+INFO - 2025-07-15 16:34:44,823 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2025-07-15 16:34:44,823 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增失败'}}]
+INFO - 2025-07-15 16:34:44,823 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2025-07-15 16:34:44,824 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,824 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,826 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,828 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2025-07-15 16:34:44,828 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2025-07-15 16:34:44,828 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:34:44,828 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：无效新增·缺少必填参数role_id
+INFO - 2025-07-15 16:34:44,828 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,828 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,828 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'dates': '2023-12-31', 'phone': 13800000000, 'token': None}}
+INFO - 2025-07-15 16:34:44,836 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2025-07-15 16:34:44,837 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增失败'}}]
+INFO - 2025-07-15 16:34:44,837 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2025-07-15 16:34:44,837 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,840 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,842 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,845 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：修改用户
+INFO - 2025-07-15 16:34:44,845 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/updateUser
+INFO - 2025-07-15 16:34:44,845 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:34:44,845 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：正常修改用户信息
+INFO - 2025-07-15 16:34:44,846 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,846 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,846 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789#$123', 'role_id': 89588181111112343, 'dates': '2023-12-31', 'phone': 13800000000}}
+INFO - 2025-07-15 16:34:44,849 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u66f4\u65b0\u6210\u529f",
+  "msg_code": 200
+}
+
+INFO - 2025-07-15 16:34:44,849 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '更新成功'}}]
+INFO - 2025-07-15 16:34:44,849 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【更新成功】,实际结果【更新成功】
+INFO - 2025-07-15 16:34:44,849 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,850 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,851 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,853 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2025-07-15 16:34:44,853 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2025-07-15 16:34:44,853 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:34:44,853 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：有效删除用户
+INFO - 2025-07-15 16:34:44,853 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,853 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,853 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 123839387391912}}
+INFO - 2025-07-15 16:34:44,856 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u5220\u9664\u6210\u529f!",
+  "msg_code": 200
+}
+
+INFO - 2025-07-15 16:34:44,856 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除成功'}}]
+INFO - 2025-07-15 16:34:44,856 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除成功】,实际结果【删除成功!】
+INFO - 2025-07-15 16:34:44,856 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,857 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,858 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,860 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2025-07-15 16:34:44,860 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2025-07-15 16:34:44,860 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:34:44,860 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：无效删除用户·userid不存在
+INFO - 2025-07-15 16:34:44,860 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,861 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,861 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 1238393873922}}
+INFO - 2025-07-15 16:34:44,863 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2025-07-15 16:34:44,863 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2025-07-15 16:34:44,863 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2025-07-15 16:34:44,863 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,864 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,865 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,867 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2025-07-15 16:34:44,867 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2025-07-15 16:34:44,867 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:34:44,868 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：无效删除用户·userid为空
+INFO - 2025-07-15 16:34:44,868 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,868 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,868 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 1238393873922}}
+INFO - 2025-07-15 16:34:44,870 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2025-07-15 16:34:44,870 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2025-07-15 16:34:44,870 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2025-07-15 16:34:44,870 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,871 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,872 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,877 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2025-07-15 16:34:44,877 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2025-07-15 16:34:44,877 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:34:44,877 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：无效删除用户·缺少必填参数
+INFO - 2025-07-15 16:34:44,877 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,877 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,879 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2025-07-15 16:34:44,880 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2025-07-15 16:34:44,880 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2025-07-15 16:34:44,880 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,881 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:34:44,883 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:34:44,885 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：用户查询
+INFO - 2025-07-15 16:34:44,885 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2025-07-15 16:34:44,885 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:34:44,885 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：有效查询用户
+INFO - 2025-07-15 16:34:44,885 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:34:44,885 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:34:44,885 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 123839387391912}}
+INFO - 2025-07-15 16:34:44,889 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u67e5\u8be2\u6210\u529f!",
+  "msg_code": 200
+}
+
+INFO - 2025-07-15 16:34:44,889 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询成功'}}, {'eq': {'msg_code': 200}}]
+INFO - 2025-07-15 16:34:44,889 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询成功】,实际结果【查询成功!】
+INFO - 2025-07-15 16:34:44,889 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg_code': 200}，等于预期结果：{'msg_code': 200}
+INFO - 2025-07-15 16:34:44,890 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:34:44,891 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,478 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-07-15 16:40:57,478 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-07-15 16:40:57,478 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:40:57,478 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-07-15 16:40:57,478 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,478 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,478 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-07-15 16:40:57,491 - sendrequest.py:108 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc1MjU2ODg1NywianRpIjoiNzdkY2E3OWYtMWRjMS00NDVjLThjMGQtNmRkNDZjNjMxNzc0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc1MjU2ODg1NywiY3NyZiI6IjA0YjNhMjY1LWJkZTgtNGYwYy05MzcwLThjZjM2NDNhMzQzZiIsImV4cCI6MTc1MjU2OTc1N30.xstJkvBUCZ-_EXMFZ5rHZGbePgmAqDu6kHB6rhUGcp0', 'csrf_access_token': '04b3a265-bde8-4f0c-9370-8cf3643a343f'}}
+INFO - 2025-07-15 16:40:57,491 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u767b\u5f55\u6210\u529f",
+  "msg_code": 200,
+  "orgId": "4140913758110176843",
+  "token": "66Ceead1b62E3d20e5F8122C93Be0",
+  "userId": "1262204802105607729"
+}
+
+INFO - 2025-07-15 16:40:57,492 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-07-15 16:40:57,492 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2025-07-15 16:40:57,492 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2025-07-15 16:40:57,492 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2025-07-15 16:40:57,493 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,493 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,497 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：商品列表
+INFO - 2025-07-15 16:40:57,497 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2025-07-15 16:40:57,497 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：Get
+INFO - 2025-07-15 16:40:57,497 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：获取商品列表
+INFO - 2025-07-15 16:40:57,497 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '66Ceead1b62E3d20e5F8122C93Be0'}
+INFO - 2025-07-15 16:40:57,497 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,498 - sendrequest.py:151 -[sendrequest:run_main] - 请求参数：{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2025-07-15 16:40:57,500 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "api_info": "today:21 max:10000 all[90=21+33+36];expires:2030-12-31",
+  "cache": 0,
+  "error_code": "0000",
+  "goodsList": [
+    {
+      "goodsId": "18382788819",
+      "goods_count": "233",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg",
+      "goods_name": "\u30102\u4ef6\u5957\u3011\u5957\u88c5\u79cb\u51ac\u65b0\u6b3e\u4eff\u736d\u5154\u6bdb\u9489\u73e0\u76ae\u8349\u6bdb\u6bdb\u77ed\u5916\u5957\u52a0\u539a\u5927\u8863\u5973\u88c5",
+      "original_price": "",
+      "unit_price": "\uffe599.00"
+    },
+    {
+      "goodsId": "33809635011",
+      "goods_count": "521",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg",
+      "goods_name": "\u597d\u5947\u5c0f\u68ee\u6797\u5fc3\u94bb\u88c5\u7eb8\u5c3f\u88e4M22\u62c9\u62c9\u88e4L18/XL14\u8d85\u8584\u900f\u6c14\u88e4\u578b\u5c3f\u4e0d\u6e7f 1\u4ef6\u88c5",
+      "original_price": "",
+      "unit_price": "\uffe5108.00"
+    },
+    {
+      "goodsId": "56996760797",
+      "goods_count": "1181",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u51bb\u5e72\u9e21\u5c0f\u80f8\u6574\u5757\u589e\u80a5\u8425\u517b\u53d1\u816e\u72d7\u72d7\u96f6\u98df\u65b0\u624b\u517b\u732b\u96f6\u98df\u5e7c\u732b\u96f6\u98df100g",
+      "original_price": "",
+      "unit_price": "\uffe517.80"
+    },
+    {
+      "goodsId": "82193785267",
+      "goods_count": "3000+",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u3010\u81ea\u8425\u3011ISB\u4f0a\u73ca\u5a1c\u610f\u5927\u5229\u6c34\u679c\u7cfb\u5217\u5ba0\u7269\u72ac\u732b\u6c90\u6d74\u9732\u9664\u81ed\u9999\u6ce2\u62a4\u6bdb\u7d20",
+      "original_price": "",
+      "unit_price": "\uffe5650.00"
+    },
+    {
+      "goodsId": "74190550836",
+      "goods_count": "1000+",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u3010\u65b0\u54c1\u96f60CM\u5d4c\u5165\u5f0f\u3011\u6d77\u5c14\u7535\u51b0\u7bb1410L\u5bb6\u7528\u6cd5\u5f0f\u56db\u95e8\u591a\u95e8\u5b98\u65b9\u6b63\u54c1",
+      "original_price": "",
+      "unit_price": "\uffe55746.00"
+    }
+  ],
+  "reason": "",
+  "request_id": "request_id",
+  "secache": "c98b29872e8a4b28859db207944ba817",
+  "secache_date": "2025-07-15 16:34:32",
+  "secache_time": 1752568472000,
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-07-15 16:40:57,500 - apiutil_business.py:205 -[apiutil_business:extract_data_list] - json提取到参数：{'goodsIds': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2025-07-15 16:40:57,501 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': '0000'}}]
+INFO - 2025-07-15 16:40:57,501 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【0000】,实际结果【0000】
+INFO - 2025-07-15 16:40:57,501 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,505 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,506 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,509 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：商品详情
+INFO - 2025-07-15 16:40:57,509 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/productDetail
+INFO - 2025-07-15 16:40:57,509 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:40:57,509 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：获取商品详情
+INFO - 2025-07-15 16:40:57,509 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,509 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,509 - sendrequest.py:148 -[sendrequest:run_main] - 请求参数：{'json': {'pro_id': '18382788819', 'page': 1, 'size': 20}}
+INFO - 2025-07-15 16:40:57,512 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "api_info": "today:21 max:10000 all[90=21+33+36];expires:2030-12-31",
+  "api_type": "pinduoduo",
+  "cache": 0,
+  "call_args": {
+    "num_iid": "1620002566"
+  },
+  "client_ip": "106.6.39.223",
+  "error": "",
+  "error_code": "0000",
+  "execution_time": "0.437",
+  "goodsId": "82193785267",
+  "item": {
+    "AmountOnSale": 3188,
+    "CategoryId": 8484,
+    "Coupon": null,
+    "Delivery": {
+      "From": null,
+      "Info": null,
+      "MarkInfo": null,
+      "Postage": "\u5feb\u9012 \u514d\u8fd0\u8d39",
+      "To": null,
+      "extras": null
+    },
+    "DescUrl": null,
+    "Detail": "<img src=\"https://img.pddpic.com/mms-material-img/2022-09-18/3f89d470-1af8-4dee-b529-6d62aa2ea3b7.png\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2019-02-15/ddf6fe7b-b536-4183-932d-69a1189a3f59.png\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/20f659b04d3e7e5851c27ff9931c96fc.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2019-11-14/4420a8c3-49ed-46d8-ab55-15e7a638ca31.jpg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/26c3e9d5cfbaf4e8f13b2bdd38f48d71.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/0aa872fa74599dad7b6aefe6b6c035c0.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/6bc959e32a30424c7a5284a37676999c.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/1fa9861a8c99c5e9e8119fd2239fef5a.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/b62cabf1d2320c5761e3f4c15203fb20.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/6f6e54376a66cbc78e16700d4c424fe1.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/2f60753dfc875a6876adc35833a69d31.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/ae0116e589d8de712f8dafd0c356cefe.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/da910c98fcc8de1b4d2d1498cd7899fd.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/140349649d8b7d08c8e88bfbbaa2f900.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/a953bae2eeb7364ef3ef2976a97d07eb.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/4da59828136c3b1308aad0aa990778a7.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/4a365b61a80e47288c8609ccd5982396.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/cd0a8a96b783a51236812ce24c59a329.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/16008ac19768d05e7dee16406ff958a1.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/ef1d17b69ebf9449a8bb52459b168c26.jpeg\" style=\"width:100%;\"/>",
+    "FansCount": null,
+    "ImageUrls": [
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg",
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg",
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/d209ef7bcc9183c3bb8ca1dfdb108d49.jpeg",
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/74257ab65f3f00da7a90fde9042fe640.jpeg",
+      "https://t00img.yangkeduo.com/goods/images/2019-08-17/e8fbd9cb-cc74-4caa-9380-84c46d27b008.jpg",
+      "https://t00img.yangkeduo.com/goods/images/2019-08-17/d76f515b-e375-4060-b94e-cf64f6b0964e.jpg",
+      "https://t00img.yangkeduo.com/goods/images/2019-08-17/f2f279b5-6000-4fbe-b99b-7c1cbd7884ea.jpg"
+    ],
+    "MainImageVideo": null,
+    "OfferId": 1620002566,
+    "OriginalPriceRangeInfos": [
+      {
+        "ConvertPrice": 0,
+        "Price": 115,
+        "Range": "3"
+      }
+    ],
+    "PriceRangeInfos": [
+      {
+        "ConvertPrice": 0,
+        "Price": 95.4,
+        "Range": "3"
+      }
+    ],
+    "ProductFeatureTuples": [
+      {
+        "Item1": "\u9762\u6599\u6750\u8d28",
+        "Item2": "\u4eff\u76ae\u8349"
+      },
+      {
+        "Item1": "\u6210\u5206\u542b\u91cf",
+        "Item2": "71%\uff08\u542b\uff09\u201480%\uff08\u542b\uff09"
+      },
+      {
+        "Item1": "\u7248\u578b",
+        "Item2": "\u4fee\u8eab"
+      },
+      {
+        "Item1": "\u9886\u578b",
+        "Item2": "\u5706\u9886"
+      },
+      {
+        "Item1": "\u8863\u957f",
+        "Item2": "\u77ed\u6b3e"
+      },
+      {
+        "Item1": "\u662f\u5426\u5e26\u6bdb\u9886",
+        "Item2": "\u4e0d\u5e26\u6bdb\u9886"
+      },
+      {
+        "Item1": "\u4e3b\u98ce\u683c",
+        "Item2": "\u6c14\u8d28\u540d\u5a9b"
+      }
+    ],
+    "ProductFeatures": {
+      "\u4e3b\u98ce\u683c": "\u6c14\u8d28\u540d\u5a9b",
+      "\u6210\u5206\u542b\u91cf": "71%\uff08\u542b\uff09\u201480%\uff08\u542b\uff09",
+      "\u662f\u5426\u5e26\u6bdb\u9886": "\u4e0d\u5e26\u6bdb\u9886",
+      "\u7248\u578b": "\u4fee\u8eab",
+      "\u8863\u957f": "\u77ed\u6b3e",
+      "\u9762\u6599\u6750\u8d28": "\u4eff\u76ae\u8349",
+      "\u9886\u578b": "\u5706\u9886"
+    },
+    "RateCount": null,
+    "RetryCount": 0,
+    "SellCount": "\u5df2\u62fc4.2\u4e07\u4ef6",
+    "SellerId": null,
+    "SellerNick": null,
+    "ShopId": "461742",
+    "ShopInfo": null,
+    "ShopName": "\u679c\u679c\u5bb6\u6c14\u8d28\u5973\u88c5",
+    "ShopUrl": "http://yangkeduo.com/mall_page.html?mall_id=461742",
+    "SkuMaps": [
+      {
+        "AmountOnSale": 73,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:119128",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357891",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "S\uff0890\u65a4\u4ee5\u4e0b\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 65,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:96784",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357892",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "M\uff0890-100\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 82,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:33651",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357893",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "L\uff08100-110\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 89,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:33652",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357894",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "XL\uff08110-120\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 94,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:33653",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357895",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "2XL\uff08120-130\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 105,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:33656",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357896",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "3XL\uff08130-140\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 1051,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:119128",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357897",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "S\uff0890\u65a4\u4ee5\u4e0b\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 88,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:96784",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357898",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "M\uff0890-100\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 80,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:33651",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357899",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "L\uff08100-110\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 660,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:33652",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357900",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "XL\uff08110-120\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 126,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:33653",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357901",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "2XL\uff08120-130\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 89,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:33656",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357902",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "3XL\uff08130-140\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 98,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/48b30664f0f7e526ab1b956e813f25cf.jpeg",
+        "Key": "1215:105309781;1226:119128",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107855",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "S\uff0890\u65a4\u4ee5\u4e0b\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 95,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/3660b7893ca5cda1ffcea745d10b2506.jpeg",
+        "Key": "1215:105309781;1226:96784",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107856",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "M\uff0890-100\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 97,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/a4a5a671afbb2d8e1f4c21c0ced3bea8.jpeg",
+        "Key": "1215:105309781;1226:33651",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107857",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "L\uff08100-110\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 97,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/f0551176629bf81f25757c160198dba1.jpeg",
+        "Key": "1215:105309781;1226:33652",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107858",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "XL\uff08110-120\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 99,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/801a2e23140bfe76229f02aab0a8a5fe.jpeg",
+        "Key": "1215:105309781;1226:33653",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107853",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "2XL\uff08120-130\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 100,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/2f202934f16f0eee41257b77bf489262.jpeg",
+        "Key": "1215:105309781;1226:33656",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107854",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "3XL\uff08130-140\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      }
+    ],
+    "SkuProps": [
+      {
+        "IsImg": true,
+        "Prop": "\u989c\u8272",
+        "Value": [
+          {
+            "imageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+            "name": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)",
+            "value": "1215:1115500378"
+          },
+          {
+            "imageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+            "name": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09",
+            "value": "1215:1115501666"
+          },
+          {
+            "imageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/48b30664f0f7e526ab1b956e813f25cf.jpeg",
+            "name": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09",
+            "value": "1215:105309781"
+          }
+        ]
+      },
+      {
+        "IsImg": false,
+        "Prop": "\u5c3a\u7801",
+        "Value": [
+          {
+            "name": "S\uff0890\u65a4\u4ee5\u4e0b\uff09",
+            "value": "1226:119128"
+          },
+          {
+            "name": "M\uff0890-100\u65a4\uff09",
+            "value": "1226:96784"
+          },
+          {
+            "name": "L\uff08100-110\u65a4\uff09",
+            "value": "1226:33651"
+          },
+          {
+            "name": "XL\uff08110-120\u65a4\uff09",
+            "value": "1226:33652"
+          },
+          {
+            "name": "2XL\uff08120-130\u65a4\uff09",
+            "value": "1226:33653"
+          },
+          {
+            "name": "3XL\uff08130-140\u65a4\uff09",
+            "value": "1226:33656"
+          }
+        ]
+      }
+    ],
+    "SourceType": 6,
+    "Subject": "\u30102\u4ef6\u5957\u3011\u5957\u88c5\u79cb\u51ac\u65b0\u6b3e\u4eff\u736d\u5154\u6bdb\u9489\u73e0\u76ae\u8349\u6bdb\u6bdb\u77ed\u5916\u5957\u52a0\u539a\u5927\u8863\u5973\u88c5",
+    "Tag": null,
+    "Unit": null,
+    "UserId": "461742",
+    "_ddf": "app",
+    "format_check": "ok"
+  },
+  "reason": "",
+  "request_id": "gw-4.63510267214bd",
+  "secache": "c98b29872e8a4b28859db207944ba817",
+  "secache_date": "2025-07-15 16:40:57",
+  "secache_time": 1666253415,
+  "server_memory": "0.84MB",
+  "server_time": "Beijing/2023-10-20 16:10:15",
+  "translate_engine": "baidu",
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-07-15 16:40:57,513 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'error_code': '0000'}}]
+INFO - 2025-07-15 16:40:57,514 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'error_code': '0000'}，等于预期结果：{'error_code': '0000'}
+INFO - 2025-07-15 16:40:57,514 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,514 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,515 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,518 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：提交订单
+INFO - 2025-07-15 16:40:57,518 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/placeAnOrder
+INFO - 2025-07-15 16:40:57,518 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:40:57,518 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：详情页面选择规格，提交订单
+INFO - 2025-07-15 16:40:57,518 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,518 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,518 - sendrequest.py:148 -[sendrequest:run_main] - 请求参数：{'json': {'goods_id': '18382788819', 'number': 2, 'propertyChildIds': '2:9', 'inviter_id': 127839112, 'price': '128', 'freight_insurance': '0.00', 'discount_code': '002399', 'consignee_info': {'name': '张三', 'phone': 13800000000, 'address': '北京市海淀区西三环北路74号院4栋3单元1008'}}}
+INFO - 2025-07-15 16:40:57,520 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "crateTime": "2025-07-15 16:40:57",
+  "error": "",
+  "error_code": "0000",
+  "message": "\u63d0\u4ea4\u8ba2\u5355\u6210\u529f",
+  "orderNumber": "805670191856157917321",
+  "translate_language": "zh-CN",
+  "userId": "1262204802105607729"
+}
+
+INFO - 2025-07-15 16:40:57,520 - apiutil_business.py:178 -[apiutil_business:extract_data] - json提取到参数：{'orderNumber': '805670191856157917321'}
+INFO - 2025-07-15 16:40:57,521 - apiutil_business.py:178 -[apiutil_business:extract_data] - json提取到参数：{'userId': '1262204802105607729'}
+INFO - 2025-07-15 16:40:57,521 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'message': '提交订单成功'}}]
+INFO - 2025-07-15 16:40:57,521 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'message': '提交订单成功'}，等于预期结果：{'message': '提交订单成功'}
+INFO - 2025-07-15 16:40:57,521 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,522 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,523 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,530 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：订单支付
+INFO - 2025-07-15 16:40:57,530 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/orderPay
+INFO - 2025-07-15 16:40:57,530 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:40:57,530 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：订单支付
+INFO - 2025-07-15 16:40:57,530 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,530 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,531 - sendrequest.py:148 -[sendrequest:run_main] - 请求参数：{'json': {'orderNumber': '805670191856157917321', 'userId': '1262204802105607729', 'timeStamp': '1752568857'}}
+INFO - 2025-07-15 16:40:57,533 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "createTime": "2025-07-15 16:40:57",
+  "error": "",
+  "error_code": "0000",
+  "message": "\u8ba2\u5355\u652f\u4ed8\u6210\u529f",
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-07-15 16:40:57,534 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'message': '订单支付成功'}}]
+INFO - 2025-07-15 16:40:57,534 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'message': '订单支付成功'}，等于预期结果：{'message': '订单支付成功'}
+INFO - 2025-07-15 16:40:57,534 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,536 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,538 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,542 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：校验订单状态
+INFO - 2025-07-15 16:40:57,542 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/checkOrderStatus
+INFO - 2025-07-15 16:40:57,542 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:40:57,542 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：校验商品订单状态
+INFO - 2025-07-15 16:40:57,542 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,542 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,542 - sendrequest.py:148 -[sendrequest:run_main] - 请求参数：{'json': {'orderNumber': '805670191856157917321', 'timeStamp': '1752568857'}}
+INFO - 2025-07-15 16:40:57,544 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "error": "",
+  "error_code": "",
+  "queryTime": "2025-07-15 16:40:57",
+  "status": "0",
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-07-15 16:40:57,545 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'status': '0'}}]
+INFO - 2025-07-15 16:40:57,545 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'status': '0'}，等于预期结果：{'status': '0'}
+INFO - 2025-07-15 16:40:57,545 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,546 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,547 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+ERROR - 2025-07-15 16:40:57,549 - readyaml.py:113 -[readyaml:get_extract_yaml] - 【extract.yaml】没有找到：cookie,--'cookie'
+ERROR - 2025-07-15 16:40:57,551 - readyaml.py:113 -[readyaml:get_extract_yaml] - 【extract.yaml】没有找到：cookie,--'cookie'
+INFO - 2025-07-15 16:40:57,551 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：商品列表
+INFO - 2025-07-15 16:40:57,551 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2025-07-15 16:40:57,551 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：Get
+INFO - 2025-07-15 16:40:57,551 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：获取商品列表
+INFO - 2025-07-15 16:40:57,551 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': 'None'}
+INFO - 2025-07-15 16:40:57,551 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,551 - sendrequest.py:151 -[sendrequest:run_main] - 请求参数：{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2025-07-15 16:40:57,553 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "api_info": "today:21 max:10000 all[90=21+33+36];expires:2030-12-31",
+  "cache": 0,
+  "error_code": "0000",
+  "goodsList": [
+    {
+      "goodsId": "18382788819",
+      "goods_count": "233",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg",
+      "goods_name": "\u30102\u4ef6\u5957\u3011\u5957\u88c5\u79cb\u51ac\u65b0\u6b3e\u4eff\u736d\u5154\u6bdb\u9489\u73e0\u76ae\u8349\u6bdb\u6bdb\u77ed\u5916\u5957\u52a0\u539a\u5927\u8863\u5973\u88c5",
+      "original_price": "",
+      "unit_price": "\uffe599.00"
+    },
+    {
+      "goodsId": "33809635011",
+      "goods_count": "521",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg",
+      "goods_name": "\u597d\u5947\u5c0f\u68ee\u6797\u5fc3\u94bb\u88c5\u7eb8\u5c3f\u88e4M22\u62c9\u62c9\u88e4L18/XL14\u8d85\u8584\u900f\u6c14\u88e4\u578b\u5c3f\u4e0d\u6e7f 1\u4ef6\u88c5",
+      "original_price": "",
+      "unit_price": "\uffe5108.00"
+    },
+    {
+      "goodsId": "56996760797",
+      "goods_count": "1181",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u51bb\u5e72\u9e21\u5c0f\u80f8\u6574\u5757\u589e\u80a5\u8425\u517b\u53d1\u816e\u72d7\u72d7\u96f6\u98df\u65b0\u624b\u517b\u732b\u96f6\u98df\u5e7c\u732b\u96f6\u98df100g",
+      "original_price": "",
+      "unit_price": "\uffe517.80"
+    },
+    {
+      "goodsId": "82193785267",
+      "goods_count": "3000+",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u3010\u81ea\u8425\u3011ISB\u4f0a\u73ca\u5a1c\u610f\u5927\u5229\u6c34\u679c\u7cfb\u5217\u5ba0\u7269\u72ac\u732b\u6c90\u6d74\u9732\u9664\u81ed\u9999\u6ce2\u62a4\u6bdb\u7d20",
+      "original_price": "",
+      "unit_price": "\uffe5650.00"
+    },
+    {
+      "goodsId": "74190550836",
+      "goods_count": "1000+",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u3010\u65b0\u54c1\u96f60CM\u5d4c\u5165\u5f0f\u3011\u6d77\u5c14\u7535\u51b0\u7bb1410L\u5bb6\u7528\u6cd5\u5f0f\u56db\u95e8\u591a\u95e8\u5b98\u65b9\u6b63\u54c1",
+      "original_price": "",
+      "unit_price": "\uffe55746.00"
+    }
+  ],
+  "reason": "",
+  "request_id": "request_id",
+  "secache": "c98b29872e8a4b28859db207944ba817",
+  "secache_date": "2025-07-15 16:34:32",
+  "secache_time": 1752568472000,
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-07-15 16:40:57,553 - apiutil.py:183 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2025-07-15 16:40:57,554 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': '0000'}}]
+INFO - 2025-07-15 16:40:57,554 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【0000】,实际结果【0000】
+INFO - 2025-07-15 16:40:57,554 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,554 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,555 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,560 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：商品详情
+INFO - 2025-07-15 16:40:57,560 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/productDetail
+INFO - 2025-07-15 16:40:57,560 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:40:57,560 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：获取商品详情
+INFO - 2025-07-15 16:40:57,561 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,561 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,561 - sendrequest.py:148 -[sendrequest:run_main] - 请求参数：{'json': {'pro_id': '18382788819,33809635011,56996760797,82193785267,74190550836', 'page': 1, 'size': 20}}
+INFO - 2025-07-15 16:40:57,563 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "error": "\u4e0d\u5b58\u5728\u8be5\u5546\u54c1",
+  "error_code": "4000",
+  "goodsId": "",
+  "item": {},
+  "secache_date": "2025-07-15 16:40:57",
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-07-15 16:40:57,563 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': '4000'}}]
+INFO - 2025-07-15 16:40:57,563 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【4000】,实际结果【4000】
+INFO - 2025-07-15 16:40:57,563 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,564 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,565 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,591 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：提交订单
+INFO - 2025-07-15 16:40:57,591 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/placeAnOrder
+INFO - 2025-07-15 16:40:57,591 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:40:57,591 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：提交订单
+INFO - 2025-07-15 16:40:57,591 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,591 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,591 - sendrequest.py:148 -[sendrequest:run_main] - 请求参数：{'json': {'goods_id': '33809635011', 'number': 2, 'propertyChildIds': '2:9', 'inviter_id': '127839112', 'price': '128', 'freight_insurance': '0.0', 'discount_code': '002399', 'consignee_info': {'name': '张三', 'phone': 13800000000, 'address': '北京市海淀区西三环北路74号院4栋3单元1008'}}}
+INFO - 2025-07-15 16:40:57,593 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "crateTime": "2025-07-15 16:40:57",
+  "error": "",
+  "error_code": "0000",
+  "message": "\u63d0\u4ea4\u8ba2\u5355\u6210\u529f",
+  "orderNumber": "145244340852012236160",
+  "translate_language": "zh-CN",
+  "userId": "1262204802105607729"
+}
+
+INFO - 2025-07-15 16:40:57,594 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-07-15 16:40:57,594 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-07-15 16:40:57,594 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'message': '提交订单成功'}}, {'eq': {'error_code': '0000'}}]
+INFO - 2025-07-15 16:40:57,594 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'message': '提交订单成功'}，等于预期结果：{'message': '提交订单成功'}
+INFO - 2025-07-15 16:40:57,594 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'error_code': '0000'}，等于预期结果：{'error_code': '0000'}
+INFO - 2025-07-15 16:40:57,594 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,595 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,596 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,604 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：订单支付
+INFO - 2025-07-15 16:40:57,604 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/orderPay
+INFO - 2025-07-15 16:40:57,604 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-07-15 16:40:57,604 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：订单支付
+INFO - 2025-07-15 16:40:57,604 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,604 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,604 - sendrequest.py:148 -[sendrequest:run_main] - 请求参数：{'json': {'orderNumber': '145244340852012236160', 'userId': '1262204802105607729', 'timeStamp': '1752568857'}}
+INFO - 2025-07-15 16:40:57,606 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "createTime": "2025-07-15 16:40:57",
+  "error": "",
+  "error_code": "0000",
+  "message": "\u8ba2\u5355\u652f\u4ed8\u6210\u529f",
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-07-15 16:40:57,607 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'message': '订单支付成功'}}, {'contains': {'error_code': '0000'}}]
+INFO - 2025-07-15 16:40:57,607 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【订单支付成功】,实际结果【订单支付成功】
+INFO - 2025-07-15 16:40:57,607 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【0000】,实际结果【0000】
+INFO - 2025-07-15 16:40:57,607 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,607 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,608 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,613 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2025-07-15 16:40:57,613 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2025-07-15 16:40:57,614 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:40:57,614 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：正常新增用户
+INFO - 2025-07-15 16:40:57,614 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,614 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,614 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2023-12-31', 'phone': 13800000000, 'token': '66Ceead1b62E3d20e5F8122C93Be0'}}
+INFO - 2025-07-15 16:40:57,616 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u65b0\u589e\u6210\u529f",
+  "msg_code": 200
+}
+
+INFO - 2025-07-15 16:40:57,617 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增成功'}}]
+INFO - 2025-07-15 16:40:57,617 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增成功】,实际结果【新增成功】
+INFO - 2025-07-15 16:40:57,617 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,618 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,619 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,620 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2025-07-15 16:40:57,620 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2025-07-15 16:40:57,620 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:40:57,620 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：无效新增·缺少token
+INFO - 2025-07-15 16:40:57,620 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,621 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,621 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2023-12-31', 'phone': 13800000000, 'token': None}}
+INFO - 2025-07-15 16:40:57,622 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2025-07-15 16:40:57,623 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增失败'}}]
+INFO - 2025-07-15 16:40:57,623 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2025-07-15 16:40:57,623 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,624 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,625 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,627 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2025-07-15 16:40:57,627 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2025-07-15 16:40:57,627 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:40:57,627 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：无效新增·缺少必填参数username
+INFO - 2025-07-15 16:40:57,627 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,627 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,627 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'password': 'tset6789890', 'role_id': 123456789, 'dates': '2023-12-31', 'phone': 13800000000, 'token': None}}
+INFO - 2025-07-15 16:40:57,629 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2025-07-15 16:40:57,630 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增失败'}}]
+INFO - 2025-07-15 16:40:57,630 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2025-07-15 16:40:57,630 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,631 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,632 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,634 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2025-07-15 16:40:57,634 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2025-07-15 16:40:57,634 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:40:57,634 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：无效新增·缺少必填参数role_id
+INFO - 2025-07-15 16:40:57,634 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,634 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,635 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'dates': '2023-12-31', 'phone': 13800000000, 'token': None}}
+INFO - 2025-07-15 16:40:57,637 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2025-07-15 16:40:57,637 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增失败'}}]
+INFO - 2025-07-15 16:40:57,637 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2025-07-15 16:40:57,637 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,638 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,639 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,644 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：修改用户
+INFO - 2025-07-15 16:40:57,644 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/updateUser
+INFO - 2025-07-15 16:40:57,644 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:40:57,644 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：正常修改用户信息
+INFO - 2025-07-15 16:40:57,644 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,644 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,645 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789#$123', 'role_id': 89588181111112343, 'dates': '2023-12-31', 'phone': 13800000000}}
+INFO - 2025-07-15 16:40:57,655 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u66f4\u65b0\u6210\u529f",
+  "msg_code": 200
+}
+
+INFO - 2025-07-15 16:40:57,655 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '更新成功'}}]
+INFO - 2025-07-15 16:40:57,655 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【更新成功】,实际结果【更新成功】
+INFO - 2025-07-15 16:40:57,655 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,656 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,658 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,660 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2025-07-15 16:40:57,660 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2025-07-15 16:40:57,660 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:40:57,660 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：有效删除用户
+INFO - 2025-07-15 16:40:57,660 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,660 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,660 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 123839387391912}}
+INFO - 2025-07-15 16:40:57,662 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u5220\u9664\u6210\u529f!",
+  "msg_code": 200
+}
+
+INFO - 2025-07-15 16:40:57,663 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除成功'}}]
+INFO - 2025-07-15 16:40:57,663 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除成功】,实际结果【删除成功!】
+INFO - 2025-07-15 16:40:57,663 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,664 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,665 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,667 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2025-07-15 16:40:57,667 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2025-07-15 16:40:57,667 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:40:57,667 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：无效删除用户·userid不存在
+INFO - 2025-07-15 16:40:57,667 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,667 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,668 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 1238393873922}}
+INFO - 2025-07-15 16:40:57,670 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2025-07-15 16:40:57,670 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2025-07-15 16:40:57,671 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2025-07-15 16:40:57,671 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,671 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,673 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,674 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2025-07-15 16:40:57,674 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2025-07-15 16:40:57,675 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:40:57,675 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：无效删除用户·userid为空
+INFO - 2025-07-15 16:40:57,675 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,675 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,675 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 1238393873922}}
+INFO - 2025-07-15 16:40:57,677 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2025-07-15 16:40:57,678 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2025-07-15 16:40:57,678 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2025-07-15 16:40:57,678 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,679 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,680 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,682 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2025-07-15 16:40:57,682 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2025-07-15 16:40:57,682 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:40:57,682 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：无效删除用户·缺少必填参数
+INFO - 2025-07-15 16:40:57,682 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,682 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,684 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2025-07-15 16:40:57,684 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2025-07-15 16:40:57,684 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2025-07-15 16:40:57,685 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,685 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-07-15 16:40:57,686 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-07-15 16:40:57,688 - sendrequest.py:136 -[sendrequest:run_main] - 接口名称：用户查询
+INFO - 2025-07-15 16:40:57,688 - sendrequest.py:137 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2025-07-15 16:40:57,688 - sendrequest.py:138 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2025-07-15 16:40:57,688 - sendrequest.py:139 -[sendrequest:run_main] - 测试用例名称：有效查询用户
+INFO - 2025-07-15 16:40:57,688 - sendrequest.py:140 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-07-15 16:40:57,688 - sendrequest.py:141 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-07-15 16:40:57,688 - sendrequest.py:145 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 123839387391912}}
+INFO - 2025-07-15 16:40:57,691 - sendrequest.py:109 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u67e5\u8be2\u6210\u529f!",
+  "msg_code": 200
+}
+
+INFO - 2025-07-15 16:40:57,691 - assertions.py:171 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询成功'}}, {'eq': {'msg_code': 200}}]
+INFO - 2025-07-15 16:40:57,691 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询成功】,实际结果【查询成功!】
+INFO - 2025-07-15 16:40:57,691 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg_code': 200}，等于预期结果：{'msg_code': 200}
+INFO - 2025-07-15 16:40:57,692 - assertions.py:199 -[assertions:assert_result] - 测试成功
+INFO - 2025-07-15 16:40:57,692 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
