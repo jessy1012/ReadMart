@@ -6,7 +6,6 @@ pandas
 paramiko
 pymongo
 PyMySQL
-PyQt5
 pytest
 PyYAML
 redis
