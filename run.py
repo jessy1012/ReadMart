@@ -12,7 +12,7 @@ if __name__ == '__main__':
 
     if REPORT_TYPE == 'allure':
         pytest.main(
-            ['-s', '-v', '--alluredir=./report/temp', './testcase', '--clean-alluredir',
+            ['-s', '-v', '--alluredir=./report/temp', './testcase',
              '--junitxml=./report/results.xml'])
 
         shutil.copy('./environment.xml', './report/temp')
