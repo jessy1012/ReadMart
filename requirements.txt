@@ -1,4 +1,5 @@
 allure_python_commons
+allure-pytest
 clickhouse_sqlalchemy
 Flask
 jsonpath
