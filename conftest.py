@@ -21,6 +21,9 @@ def clear_extract():
     yfd.clear_yaml_data()
     remove_file("./report/temp", ['json', 'txt', 'attach', 'properties'])
 
+# 运行开始时记录时间
+def pytest_sessionstart(session):
+    session.config._custom_session_start = time.time()
 
 def generate_test_summary(terminalreporter):
     """生成测试结果摘要字符串"""
@@ -29,7 +32,9 @@ def generate_test_summary(terminalreporter):
     failed = len(terminalreporter.stats.get('failed', []))
     error = len(terminalreporter.stats.get('error', []))
     skipped = len(terminalreporter.stats.get('skipped', []))
-    duration = time.time() - terminalreporter._sessionstarttime
+    # 用自己保存的开始时间
+    start = getattr(terminalreporter.config, "_custom_session_start", None)
+    duration = round(time.time() - start, 3) if start else 0.0
 
     summary = f"""
     自动化测试结果，通知如下，请着重关注测试失败的接口，具体执行结果如下：
